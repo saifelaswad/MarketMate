@@ -1,0 +1,98 @@
+/* General container styling */
+.container {
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.hero .btn-lg {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.hero .btn-lg:hover {
+  background-color: #0056b3;
+}
+
+/* Features Section */
+.feature-icon img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+p {
+  color: #333;
+}
+
+/* Call-to-Action Section */
+.call-to-action {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+}
+
+.call-to-action p {
+  font-size: 1.1rem;
+}
+
+.call-to-action .btn-lg {
+  background-color: #fff;
+  color: #0056b3;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.call-to-action .btn-lg:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .feature-icon img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .call-to-action h2 {
+    font-size: 2rem;
+  }
+}
